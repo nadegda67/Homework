@@ -1,0 +1,28 @@
+  992  ls -la
+  993  echo -e '#!/bin/bash\n date +%d.%m.%y\n echo "it works"' > /opt/290724-ptm/innaya/task_INNA.sh
+  994  ls -la
+  995  chmod 744 task_INNA.sh
+  996  ls -la
+  997  nano task_INNA.sh
+  998  exit
+  999  cd/opt/290724-ptm/innaya
+ 1000  cd /opt/290724-ptm/innaya
+ 1001  ls -la
+ 1002  cat task_INNA.sh
+ 1003  ./task_INNA.sh
+ 1004  ls -la
+ 1005  export EDITOR=nano
+ 1006  crontab -e
+ 1007  tar -rvf archive.tar testfile.*
+ 1008  ls -la
+ 1009  history
+ 1010  history | tail -19 > history.txt
+ 1012  tar -rvf archive.tar history.txt
+ 1013  tar -tf archive.tar
+ 1014  gzip archive.tar.gz
+ 1015  gzip archive.tar
+ 1016  ls -la
+ 1017  tar -tf archive.tar.gz
+ 1018  cat history.txt
+ 1019  history
+ 1020  history | tail -9 >> history.txt
